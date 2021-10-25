@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway/static/Raleway-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-family: "Raleway";
+  src: url("../../fonts/Raleway/static/Raleway-Medium.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
 @font-face {
-  font-family: 'Courgette';
-  src: url('../fonts/Courgette/Courgette-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-family: "Courgette";
+  src: url("../../fonts/Courgette/Courgette-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
 .navbar {
@@ -19,7 +19,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 20px;
 }
 
@@ -40,22 +40,21 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  font-family: 'Raleway', serif;
+  font-family: "Raleway", serif;
 }
 
 .note {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 10px;
   margin-left: 10px;
   align-self: flex-end;
   font-style: italic;
 }
 
-.brainforce-logo{
-  font-family: 'Courgette', sans-serif;
+.brainforce-logo {
+  font-family: "Courgette", sans-serif;
   font-style: normal;
 }
-
 
 .fa-typo3 {
   margin-left: 0.5rem;
